@@ -1,3 +1,10 @@
+/*Reiniciamos los estilos por defecto del navegador*/
+body { 
+  margin: 0px;
+  padding: 0px;
+}
 
+.infoDatos {
+  display: flex;
+}
 
-/*# sourceMappingURL=estilos.css.map */
