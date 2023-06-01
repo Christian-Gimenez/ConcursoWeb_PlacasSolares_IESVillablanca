@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <circle cx="313" cy="79" fill="#ffffff" id="svg_1" r="53" stroke="#ff7f00" stroke-width="9" transform="matrix(1, 0, 0, 1, 0, 0)"/>
+  <circle cx="85" cy="390.5" fill="#ffffff" id="svg_2" r="53" stroke="#0000ff" stroke-width="9">🏠</circle>
+  <circle cx="543" cy="393.5" fill="#ffffff" id="svg_3" r="53" stroke="#ff0000" stroke-width="9"/>
+  <line fill="none" fill-opacity="null" id="svg_4" stroke="#3f7f00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="9" transform="matrix(1, 0, 0, 1, 0, 0)" x1="262" x2="131" y1="136" y2="331"/>
+  <line fill="none" fill-opacity="null" id="svg_5" stroke="#3f7f00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="9" x1="175" x2="464" y1="389" y2="388"/>
+  <line fill="none" fill-opacity="null" id="svg_7" stroke="#3f7f00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="9" transform="matrix(1, 0, 0, 1, 0, 0)" x1="360" x2="503" y1="129" y2="330"/>
+  <text fill="#000000" fill-opacity="null" font-family="Serif" font-size="24" font-weight="bold" id="svg_8" stroke="#ff7f00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" style="cursor: move;" text-anchor="middle" transform="matrix(2.4095, 0, 0, 2.36976, -380.571, -72.3298)" x="287.23" xml:space="preserve" y="71.89">☼</text>
+  <text fill="#000000" fill-opacity="null" font-family="Serif" font-size="24" id="svg_9" stroke="#ff7f00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(2.00008, 0, 0, 2.00749, -53.0054, -361.979)" x="69" xml:space="preserve" y="384.82">🏠</text>
+  <text fill="#000000" fill-opacity="null" font-family="Serif" font-size="24" font-weight="bold" id="svg_10" stroke="#0000ff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(2.48792, 0, 0, 1.91315, -775.632, -332.515)" x="529.81" xml:space="preserve" y="387.39">⚡</text>
+  <text fill="#000000" fill-opacity="null" font-family="Serif" font-size="24" id="svg_12" stroke="#3f7f00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="0" text-anchor="middle" transform="rotate(-57.6193, 133.179, 323.113) matrix(2.48043, 0, 0, 2.3784, -172.711, -435.445)" x="123.32" xml:space="preserve" y="328.81">◀</text>
+  <text fill="#000000" fill-opacity="null" font-family="Serif" font-size="24" id="svg_13" stroke="#3f7f00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="0" text-anchor="middle" transform="rotate(-2.00942, 180, 386.999) matrix(2.48043, 0, 0, 2.3784, -172.711, -435.445)" x="142.2" xml:space="preserve" y="355.67">◀</text>
+  <text fill="#000000" fill-opacity="null" font-family="Serif" font-size="24" id="svg_14" stroke="#3f7f00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="0" text-anchor="middle" transform="rotate(-128.048, 497, 324.999) matrix(2.48043, 0, 0, 2.3784, -172.711, -435.445)" x="270" xml:space="preserve" y="329.61">◀</text>
+  <text fill="#000000" fill-opacity="null" font-family="Serif" font-size="24" id="svg_16" stroke="#3f7f00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="0" text-anchor="middle" x="137" xml:space="preserve" y="202">Solar-casa</text>
+  <text fill="#000000" fill-opacity="null" font-family="Serif" font-size="24" id="svg_17" stroke="#3f7f00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="0" style="cursor: move;" text-anchor="middle" x="491" xml:space="preserve" y="207">Solar-red</text>
+  <text fill="#000000" fill-opacity="null" font-family="Serif" font-size="24" id="svg_18" stroke="#3f7f00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="0" style="cursor: move;" text-anchor="middle" x="320" xml:space="preserve" y="369">Red</text>
+ </g>
+</svg>
