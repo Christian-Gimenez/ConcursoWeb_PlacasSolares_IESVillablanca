@@ -21,8 +21,7 @@ body {
 }
 
 .infoDatos {
-  background-color: rgb(202, 240, 164);
-
+  /*background-color: rgb(202, 240, 164);*/
 }
 
 .contenedorGraficos {
@@ -40,7 +39,7 @@ body {
 }
 
 h3 {
-  background-color: rgb(251, 179, 152);
+  /*background-color: rgb(251, 179, 152);*/
   align-self: center;
 }
 
@@ -52,15 +51,32 @@ h3 {
 
 
 svg {
-  background-color: rgb(150, 244, 244);
+  /*background-color: rgb(150, 244, 244);*/
   flex-basis: 50%;
   min-height: 300px;
 }
 
 canvas {
-  background-color: rgb(228, 216, 216);
+  /*background-color: rgb(228, 216, 216);*/
   flex-basis: 50%;
-  max-width: 1200px;
+  max-width: 1000px;
   max-height: 300px;
+}
+
+.datosRedKw {
+  /*Estilos que estaban en la etiqueta
+  html 'text'*/
+  fill: #000000;
+  fill-opacity: null;
+  font-family: 'Geologica'; /*Fuente cambiada a la importada*/
+  font-size: 22px;
+  stroke: #3f7f00;
+  stroke-dasharray: null;
+  stroke-linecap: null;
+  stroke-linejoin: null;
+  stroke-opacity: null;
+  stroke-width: 0%;
+  cursor: move;
+  text-anchor: middle;
 }
 
