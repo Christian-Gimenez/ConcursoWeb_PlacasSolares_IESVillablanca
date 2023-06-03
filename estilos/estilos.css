@@ -8,6 +8,7 @@
 body { 
   margin: 0px;
   padding: 0px;
+  font-family: 'Geologica';
 }
 
 
@@ -20,25 +21,45 @@ body {
 }
 
 .infoDatos {
-  font-family: 'Geologica';
+  background-color: rgb(202, 240, 164);
+
 }
 
-.graficos {
+.contenedorGraficos {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 20px;
 }
 
+.tituloGraficos {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+
+h3 {
+  background-color: rgb(251, 179, 152);
+  align-self: center;
+}
+
+.subTitulos {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
 
 svg {
-  background-color: aqua;
-  flex-basis: 70%;
+  background-color: rgb(150, 244, 244);
+  flex-basis: 50%;
   min-height: 300px;
 }
 
 canvas {
-  background-color: brown;
-  flex-basis: 20%;
+  background-color: rgb(228, 216, 216);
+  flex-basis: 50%;
   max-width: 1200px;
   max-height: 300px;
 }

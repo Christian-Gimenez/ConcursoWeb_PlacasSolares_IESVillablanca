@@ -22,9 +22,17 @@
             Potencia actual placas solares: <span id='curr_power'></span> <span id='curr_power_unit'></span><br>
             Balance de potencia: <span id='balance'></span> <span id='balance_unit'></span><br>
             Consumo actual: <span id='consumo_actual_kW'></span> kW</span><br>
+        </div> 
+
+        <div class="tituloGraficos">
+            <h3>Gráficos en tiempo real</h3>
+            <div class="subTitulos">
+                <h4>Gráfico trasbaso de energía</h4>
+                <h4>Estadística de consumo</h4>
+            </div>
         </div>
 
-        <div class="graficos">
+        <div class="contenedorGraficos">
         <!--Iconos SVG-->
         <svg width="25%" height="25%" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg"
             xmlns:svg="http://www.w3.org/2000/svg">
@@ -88,6 +96,7 @@
                     xml:space="preserve" y="369">Red-casa</text>
             </g>
         </svg>
+
         <!--Gráfico Canvas-->
         <canvas id="myChart" style="width:100%"></canvas>
         </div>
