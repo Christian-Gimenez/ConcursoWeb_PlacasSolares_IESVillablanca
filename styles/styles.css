@@ -1,0 +1,140 @@
+/*Cargamos las fuentes personalizadas*/
+@font-face {
+  font-family: Geologica;
+  src: url(../fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf);
+}
+
+/*Reiniciamos los estilos por defecto del navegador*/
+body { 
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Geologica';
+}
+
+header {
+  gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  letter-spacing: 2px;;
+}
+
+header img {
+  height: 50px;
+}
+
+
+.flexContainer {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  flex-direction: column;
+}
+
+.contenedorGraficos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.graficosEstadisticos, .iconosGraficos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tituloGraficos {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+
+svg {
+  /*background-color: rgb(150, 244, 244);*/
+  width: 100%;
+  min-height: 300px;
+}
+
+#myChart {
+  /*background-color: rgb(228, 216, 216);*/
+  width: 100%;
+  min-width: 600px;
+  max-width: 1000px;
+  max-height: 600px;
+  width: 500px;
+}
+
+/*ESTILOS QUE ESTABAN EN EL HTML*/
+
+/*Estilos de las etiquetas 'circle'*/
+#svg_1, #svg_2, #svg_3 {
+  fill: #ffffff;
+  stroke-width: 9;
+}
+
+#svg_1 {
+  stroke: #FFC724;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#svg_2 {
+  stroke: #6CCBFF;
+}
+
+#svg_3 {
+  stroke: #FF4B4B;
+}
+
+/*Estilos de las etiquetas 'line'*/
+#svg_4, #svg_5, #svg_7 {
+  fill: none;
+  fill-opacity: null;
+  stroke: #30B141;
+  stroke-dasharray: null;
+  stroke-linecap: null;
+  stroke-linejoin: null;
+  stroke-width: 9;
+}
+
+#svg_4, #svg_7 {
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+/*Estilos de las etiquetas 'text'*/
+.tagText {
+  fill: #30B141;
+  /*fill-opacity: null; -> estilo que no aplica*/
+  font-family: 'Geologica';
+  font-size: 24px;
+  stroke: #3f7f00;
+  /* Estilos que no aplican
+  stroke-dasharray: null;
+  stroke-linecap: null;
+  stroke-linejoin: null;
+  stroke-opacity: null;
+  */
+  stroke-width: 0%;
+  cursor: move;
+  text-anchor: middle;
+}
+
+#svg_8 {
+  transform: matrix(2.4095, 0, 0, 2.36976, -380.571, -72.3298);
+}
+
+#svg_9 {
+  transform: matrix(2.00008, 0, 0, 2.00749, -53.0054, -361.979);
+}
+
+#svg_10 {
+  transform: matrix(2.48792, 0, 0, 1.91315, -775.632, -332.515);
+}
+
+#solar_casa_kW, #solar_red_kW, #red_casa_kW {
+  fill:black;
+};
