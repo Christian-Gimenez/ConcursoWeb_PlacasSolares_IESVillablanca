@@ -1,10 +1,45 @@
+/*Cargamos las fuentes personalizadas*/
+@font-face {
+  font-family: Geologica;
+  src: url(../fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf);
+}
+
 /*Reiniciamos los estilos por defecto del navegador*/
 body { 
   margin: 0px;
   padding: 0px;
 }
 
-.infoDatos {
+
+.flexContainer {
+  padding: 30px;
   display: flex;
+  align-items: center;
+  align-content: space-around;
+  flex-direction: column;
+}
+
+.infoDatos {
+  font-family: 'Geologica';
+}
+
+.graficos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+svg {
+  background-color: aqua;
+  flex-basis: 70%;
+  min-height: 300px;
+}
+
+canvas {
+  background-color: brown;
+  flex-basis: 20%;
+  max-width: 1200px;
+  max-height: 300px;
 }
 
