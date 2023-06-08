@@ -53,7 +53,6 @@ header img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 20px;
 }
 
 .graficosEstadisticos, .iconosGraficos, .infoDatos {
@@ -64,10 +63,7 @@ header img {
 }
 
 .tituloGraficos {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-between;
+  font-size: 22px;
 }
 
 svg {
@@ -75,13 +71,16 @@ svg {
   min-height: 300px;
 }
 
+.infoDatos .datos p, .infoDatos, .datos span {
+  font-size: 15px;
+}
+
 /*Estadísticas inyectadas por JS*/
 #myChart {
-  width: 100%;
-  min-width: 800px;
-  max-width: 1000px;
+  min-width: 850px;
+  max-width: 850px;
   max-height: 800px;
-  width: 500px;
+  height: 800px;
 }
 
 
@@ -164,15 +163,46 @@ svg {
 
 /*Footer con los créditos del diseño y de la app web*/
 footer {
-  border-top: 1px solid grey;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 10px;
+  border-top: 1px solid rgb(221, 221, 221);
 }
 
-footer p {
+.desarrolladores, .licencias {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+footer .desarrolladores h5 {
+  font-size: 12px;
+}
+
+footer .licencias h5 {
+  font-size: 11px;
+}
+
+footer .desarrolladores p {
+  font-size: 12px;
   text-align: center;
   color: #666666;
 }
 
-footer p a, footer p span {
+footer .licencias p {
+  font-size: 11px;
+  text-align: center;
+  color: #666666;
+}
+
+footer div p a, footer div p span {
   text-decoration: none;
   color:#20336a;
+}
+
+.desarrolladores img {
+  width: 50px;
 }

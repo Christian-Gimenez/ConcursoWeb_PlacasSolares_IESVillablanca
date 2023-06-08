@@ -21,7 +21,7 @@
         <div class="contenedorGraficos">
             <!--Iconos SVG-->
             <div class="iconosGraficos">
-                <h3>Gráficos trasbaso de energía</h3>
+                <h3 class="tituloGraficos">Gráficos trasbaso de energía</h3>
                 <svg width="25%" height="25%" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg"
                     xmlns:svg="http://www.w3.org/2000/svg">
                     <g class="layer">
@@ -56,14 +56,14 @@
 
             <!--Gráfico Canvas-->
             <div class="graficosEstadisticos">
-                <h3>Estadística de consumo</h3>
+                <h3 class="tituloGraficos">Estadística de consumo</h3>
                 <canvas id="myChart" style="width:100%"></canvas>
             </div>
 
              <!--'infoDatos'contiene el texto 
             informativo de las placas solares -->
             <div class="infoDatos">
-                <h3>Datos de consumo</h3>
+                <h3 class="tituloGraficos">Datos de consumo</h3>
                 <br/>
                 <div class="datos">
                     <p>Potencia máxima de las placas solares: <span id="potencia_maxima" >42kW</span></p>
@@ -86,10 +86,19 @@
     <script src='actualizar-datos.js'></script>
     -->
     <footer>
-        <br/>
-        <p>Aplicación Web HTML5 y JS desarrollada por: <span>Pedro</span></p>
-        <p>Diseño Web CSS3 por: <span>Christian M. Giménez Puerma</span></p>
-        <p>Licencia imágen portada: <a href="https://www.freepik.es/foto-gratis/paneles-solares-techo-celula-solar_21520477.htm#query=panel%20solar&position=1&from_view=keyword&track=ais">Imagen de tawatchai07</a> en Freepik</p>
+        <div class="desarrolladores">
+            <h5>Desarrollado por:</h5>
+            <p>- Aplicación Web HTML5, SVG y JS desarrollada por: <span>Pedro</span>.</p>
+            <p>- Diseño Web CSS3 por: <span>Christian M. Giménez Puerma</span>.</p>
+            <h5>Tecnologías usadas:</h5>
+            <img src="/imgs/logos-html-css-js.png"/>
+        </div>
+        <div class="licencias">
+            <h5>Licencias de imágenes:</h5>
+            <p>- Imágen portada: <a href="https://www.freepik.es/foto-gratis/paneles-solares-techo-celula-solar_21520477.htm#query=panel%20solar&position=1&from_view=keyword&track=ais">Imagen de tawatchai07</a> en Freepik.</p>
+            <p>- Logos HTML5, CSS3 y JS: <a href="https://clipart.info/html5-js-css3-logo-png-4942">Clipart.info</a>.</p>
+        </div>
+        
         <!--Insertar aquí los créditos que se vean coonvenientes-->
         
     </footer>
