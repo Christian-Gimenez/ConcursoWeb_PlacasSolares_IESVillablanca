@@ -15,17 +15,8 @@
             <img src="imgs/cropped-IES-Villablanca-compacto-color-2.png"/>
             <h1>Datos placas solares en tiempo real</h1>
         </header>
-        <!-- La clase CSS: 'infoDatos'contiene el texto 
-        informativo de las placas solares -->
-        <div class="infoDatos">
-            Potencia máxima de las placas solares: 42kW<br>
-            Total energía producida desde la puesta en marca: <span id='total_energy'></span> <span
-                id='total_energy_unit'></span><br>
-            Total energía producida hoy: <span id='today_energy'></span> <span id='today_energy_unit'></span><br>
-            Potencia actual placas solares: <span id='curr_power'></span> <span id='curr_power_unit'></span><br>
-            Balance de potencia: <span id='balance'></span> <span id='balance_unit'></span><br>
-            Consumo actual: <span id='consumo_actual_kW'></span> kW</span><br>
-        </div> 
+        <!--Foto de portada placas solares-->
+        <div class="portadaPlacasSolares"></div>
 
         <div class="contenedorGraficos">
             <!--Iconos SVG-->
@@ -68,7 +59,23 @@
                 <h3>Estadística de consumo</h3>
                 <canvas id="myChart" style="width:100%"></canvas>
             </div>
+
+             <!--'infoDatos'contiene el texto 
+            informativo de las placas solares -->
+            <div class="infoDatos">
+                <h3>Datos de consumo</h3>
+                <br/>
+                <div class="datos">
+                    <p>Potencia máxima de las placas solares: <span id="potencia_maxima" >42kW</span></p>
+                    <p>Total energía producida desde la puesta en marca: <span id='total_energy'></span><span id='total_energy_unit'></span><br></p>
+                    <p>Total energía producida hoy: <span id='today_energy'></span> <span id='today_energy_unit'></span></p>
+                    <p>Potencia actual placas solares: <span id='curr_power'></span> <span id='curr_power_unit'></span></p>
+                    <p>Balance de potencia: <span id='balance'></span> <span id='balance_unit'></span><br></p>
+                    <p>Consumo actual: <span id='consumo_actual_kW'></span> <span id="consumo_actual_unit">kW</span></p>
+                </div>
+            </div> 
         </div>
+
     </main>
 
     <script src='chart.js'></script>
@@ -78,6 +85,14 @@
     <!-- Descomentar para producción
     <script src='actualizar-datos.js'></script>
     -->
+    <footer>
+        <br/>
+        <p>Aplicación Web HTML5 y JS desarrollada por: <span>Pedro</span></p>
+        <p>Diseño Web CSS3 por: <span>Christian M. Giménez Puerma</span></p>
+        <p>Licencia imágen portada: <a href="https://www.freepik.es/foto-gratis/paneles-solares-techo-celula-solar_21520477.htm#query=panel%20solar&position=1&from_view=keyword&track=ais">Imagen de tawatchai07</a> en Freepik</p>
+        <!--Insertar aquí los créditos que se vean coonvenientes-->
+        
+    </footer>
 </body>
 
 </html>
